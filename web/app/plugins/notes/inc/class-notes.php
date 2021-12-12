@@ -109,10 +109,10 @@ class Notes {
         ];
 
         $args = [
-            'labels' => $labels,
-            'public' => true,
+            'labels'       => $labels,
+            'public'       => true,
             'show_in_rest' => true,
-            'show_ui' => true,
+            'show_ui'      => true,
         ];
 
         \register_taxonomy( 'note_type', 'note', $args );
